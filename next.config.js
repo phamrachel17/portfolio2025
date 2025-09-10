@@ -4,9 +4,7 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/rachel.me' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/rachel.me' : ''
+  }
 }
 
 module.exports = nextConfig
