@@ -74,7 +74,10 @@ const Experience = () => {
                           className="w-8 h-8 mr-3 rounded-sm object-contain"
                           onError={(e) => {
                             e.currentTarget.style.display = 'none';
-                            e.currentTarget.nextElementSibling.style.display = 'block';
+                            const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                            if (nextElement) {
+                              nextElement.style.display = 'block';
+                            }
                           }}
                         />
                         <Building2 className="w-4 h-4 text-mauve-500 mr-2 hidden" />
