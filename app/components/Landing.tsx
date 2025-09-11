@@ -33,7 +33,7 @@ const Landing = () => {
               {/* Profile Image */}
               <div className="flex justify-center">
                 <img
-                  src="https://raw.githubusercontent.com/phamrachel17/portfolio2025/main/public/profile-photo.jpg"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio2025' : ''}/static/media/profile-photo.jpg`}
                   alt="Rachel Pham"
                   className="w-56 h-56 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg border-4 border-mauve-200 dark:border-mauve-600"
                   onError={(e) => {
