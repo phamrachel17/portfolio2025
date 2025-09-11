@@ -10,7 +10,7 @@ const Projects = () => {
         description: 'An iOS movie ranking app letting users review films, see friend activity, and generate automatic ranked lists.',
         technologies: ['SwiftUI', 'Firebase', 'TMDB API'],
         github: 'https://github.com/divygobi/nouvelle',
-        demo: '#',
+        // demo: '#',
         image: '/api/placeholder/400/250'
     },
     {
@@ -46,7 +46,7 @@ const Projects = () => {
         description: 'A money tracking web app created with React, MongoDB, and Node.js.',
         technologies: ['React', 'MongoDB', 'Node.js'],
         github: 'https://github.com/phamrachel17/track-my-money',
-        demo: '#',
+        // demo: '#',
         image: '/api/placeholder/400/250'
       }
   ]
@@ -120,7 +120,6 @@ const Projects = () => {
                     className="flex items-center px-3 py-1.5 bg-mauve-500 hover:bg-mauve-600 text-white rounded-lg transition-colors duration-200 text-xs font-medium"
                   >
                     <ExternalLink className="w-3 h-3 mr-1" />
-                    Demo
                   </a>
                 </div>
               </div>

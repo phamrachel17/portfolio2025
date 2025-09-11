@@ -57,19 +57,6 @@ const NavBar = () => {
       <nav className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block">
         <div className="bg-buttercream-100/90 dark:bg-gray-800/80 backdrop-blur-md rounded-l-2xl shadow-lg border border-mauve-200 dark:border-gray-700 p-3">
           <div className="flex flex-col space-y-3">
-            {/* Theme Toggle */}
-            <button
-              onClick={toggleTheme}
-              className="p-3 rounded-full bg-mauve-100 dark:bg-gray-700 hover:bg-mauve-200 dark:hover:bg-gray-600 transition-colors duration-200"
-              aria-label="Toggle theme"
-            >
-              {mounted && theme === 'dark' ? (
-                <Sun className="w-5 h-5 text-yellow-500" />
-              ) : (
-                <Moon className="w-5 h-5 text-mauve-600" />
-              )}
-            </button>
-
             {/* Navigation Items */}
             {navItems.map((item) => {
               const IconComponent = item.icon
@@ -92,6 +79,19 @@ const NavBar = () => {
                 </button>
               )
             })}
+
+            {/* Theme Toggle */}
+            <button
+              onClick={toggleTheme}
+              className="p-3 rounded-full bg-mauve-100 dark:bg-gray-700 hover:bg-mauve-200 dark:hover:bg-gray-600 transition-colors duration-200"
+              aria-label="Toggle theme"
+            >
+              {mounted && theme === 'dark' ? (
+                <Sun className="w-5 h-5 text-yellow-500" />
+              ) : (
+                <Moon className="w-5 h-5 text-mauve-600" />
+              )}
+            </button>
           </div>
         </div>
       </nav>

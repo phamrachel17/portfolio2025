@@ -105,7 +105,7 @@ const Landing = () => {
                 <h2 className="text-2xl font-bold text-mauve-800 dark:text-white mb-4">about me</h2>
                 <p className="text-mauve-600 dark:text-gray-300 leading-relaxed">
                   I am currently a software engineer at Goldman Sachs located in NYC and have worked in various fields such as finance, aerospace, and transportation. 
-                  Outside of work, you can find me coding side projects, ranking food on Beli, running around the city, or thrifting.
+                  Outside of work, you can find me coding side projects, ranking food on Beli, running around the city, or thrifting. 
                 </p>
               </div>
 
