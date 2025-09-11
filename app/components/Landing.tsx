@@ -36,6 +36,7 @@ const Landing = () => {
                   alt="Rachel Pham"
                   className="w-56 h-56 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg border-4 border-mauve-200 dark:border-mauve-600"
                   onError={(e) => {
+                    console.log('Image failed to load:', e.currentTarget.src);
                     e.currentTarget.style.display = 'none'
                     e.currentTarget.nextElementSibling?.classList.remove('hidden')
                   }}
