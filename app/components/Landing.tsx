@@ -1,6 +1,7 @@
 'use client'
 import { ArrowDown, MapPin, GraduationCap, Utensils, Heart, Coffee, Music, Github, Mail, Linkedin } from 'lucide-react'
 import { WindSong } from "next/font/google";
+import Image from 'next/image';
 
 const windSong = WindSong({
     subsets: ["latin"],
@@ -32,7 +33,7 @@ const Landing = () => {
               {/* Profile Image */}
               <div className="flex justify-center">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/portfolio2025/profile-photo.jpg"
                   alt="Rachel Pham"
                   className="w-56 h-56 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg border-4 border-mauve-200 dark:border-mauve-600"
                   onError={(e) => {
