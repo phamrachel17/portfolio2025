@@ -1,18 +1,6 @@
 # Portfolio 2025
 
-A modern, responsive portfolio website built with Next.js and Tailwind CSS.
-
-## Features
-
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Dark/Light Mode**: Toggle between themes with smooth transitions
-- **Smooth Scrolling**: Navigate between sections with smooth animations
-- **Modern UI**: Clean, minimalist design with hover effects
-- **Professional Sections**:
-  - Landing page with introduction
-  - Professional experience timeline
-  - Project showcase with technologies
-  - Skills and interests
+website live at -> https://phamrachel17.github.io/portfolio2025/
 
 ## Tech Stack
 
