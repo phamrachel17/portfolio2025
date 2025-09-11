@@ -34,6 +34,13 @@ jobs:
         env:
           NODE_ENV: production
           
+      - name: List build output
+        run: |
+          echo "Build output contents:"
+          ls -la out/
+          echo "Checking for profile photo:"
+          ls -la out/profile-photo.jpg || echo "Profile photo not found"
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
