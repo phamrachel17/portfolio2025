@@ -33,7 +33,7 @@ const Landing = () => {
               {/* Profile Image */}
               <div className="flex justify-center">
                 <img
-                  src="/profile-photo.jpg"
+                  src="https://raw.githubusercontent.com/phamrachel17/portfolio2025/main/public/profile-photo.jpg"
                   alt="Rachel Pham"
                   className="w-56 h-56 lg:w-64 lg:h-64 rounded-full object-cover shadow-lg border-4 border-mauve-200 dark:border-mauve-600"
                   onError={(e) => {
@@ -42,6 +42,12 @@ const Landing = () => {
                     e.currentTarget.nextElementSibling?.classList.remove('hidden')
                   }}
                 />
+                <div className="w-56 h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-mauve-400 to-mauve-600 flex items-center justify-center shadow-lg hidden">
+                  <div className="text-white text-center">
+                    <div className="text-5xl lg:text-6xl font-bold mb-1">RP</div>
+                    <div className="text-sm lg:text-base opacity-80">Profile Photo</div>
+                  </div>
+                </div>
               </div>
 
               {/* Tagline */}
